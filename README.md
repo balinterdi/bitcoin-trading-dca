@@ -54,6 +54,11 @@ This should be run once a day, every day, after lunch **or** setup a [cronjob](h
 node index.js
 ```
 
+### Serverless template
+
+There is a serverless template that you can use if you want to deploy this to an
+aws lambda https://github.com/izifortune/bitcoin-trading-dca-serverless
+
 ### Disclaimer
 
 Dollar Cost Averaging is meant to be used as a long-term strategy. This does not mean that returns are guaranteed, it's an investment and it's on your own risk. The general idea of this is to be used as [Buy, hold and don't watch too closely](https://www.cnbc.com/2016/03/04/warren-buffett-buy-hold-and-dont-watch-too-closely.html)
