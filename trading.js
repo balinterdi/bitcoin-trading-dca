@@ -18,8 +18,8 @@ const investmentAmount = process.env.INVESTMENT_AMOUNT;
 // https://api.kraken.com/0/public/AssetPairs
 const pair = (process.env.ASSETS_PAIR || 'XXBTZEUR').toUpperCase();
 
-const cryptoCurrency = pair.split('X')[1].slice(0, 3);
-const fiatCurrency = pair.split('Z')[1].slice(0, 3);
+const cryptoCurrency = pair.slice(1, 4);
+const fiatCurrency = pair.slice(-3);
 
 const main = async () => {
     try {
